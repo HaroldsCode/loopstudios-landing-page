@@ -18,7 +18,7 @@ export const Home = () => {
             <picture className="data__thumbnail">
               <img
                 className="data__image"
-                src="./assets/images/desktop/image-interactive.jpg"
+                src="./images/desktop/image-interactive.jpg"
                 alt="Interactive VR"
               />
             </picture>

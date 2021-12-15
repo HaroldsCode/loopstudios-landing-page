@@ -36,7 +36,7 @@ export const Header = ({showMenu}) => {
       <img src={mobile ? mobileImg : desktopImg} alt="background" />
       <section>
         <nav className="navbar">
-          <img src="./assets/images/logo.svg" alt="logo loopstudios" className="brand"/>
+          <img src="./images/logo.svg" alt="logo loopstudios" className="brand"/>
           
           {mobile && <MenuBars onClick={showMenu}/> }
           {!mobile && <MenuItem/> }

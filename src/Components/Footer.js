@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer>
       <div className="footer">
         <div className="footer__group">
-          <img className="footer__brand" src="./assets/images/logo.svg" alt="loopstudios" title="loopstudios"/>
+          <img className="footer__brand" src="./images/logo.svg" alt="loopstudios" title="loopstudios"/>
           <MenuItem/>
         </div>
         <div className="footer__group">

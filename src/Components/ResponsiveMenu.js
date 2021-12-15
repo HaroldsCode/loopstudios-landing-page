@@ -40,7 +40,7 @@ export const ResponsiveMenu = ({toggle}) => {
   return (
     <Wrapper>
       <div id="nav">
-        <img src="./assets/images/logo.svg" alt="logo loopstudios"/>
+        <img src="./images/logo.svg" alt="logo loopstudios"/>
         <Close onClick={toggle}/>
       </div>
       <MenuItem variant="aside"/>

@@ -47,10 +47,10 @@ const Picture = styled.picture`
 export const Social = () => {
 
   const socials = [
-    {alt:'Facebook', src:'./assets/images/icon-facebook.svg'},
-    {alt:'Twitter', src:'./assets/images/icon-twitter.svg'},
-    {alt:'Pinterest', src:'./assets/images/icon-pinterest.svg'},
-    {alt:'Instagram', src:'./assets/images/icon-instagram.svg'},
+    {alt:'Facebook', src:'./images/icon-facebook.svg'},
+    {alt:'Twitter', src:'./images/icon-twitter.svg'},
+    {alt:'Pinterest', src:'./images/icon-pinterest.svg'},
+    {alt:'Instagram', src:'./images/icon-instagram.svg'},
   ];
 
   return (
