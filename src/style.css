@@ -252,7 +252,7 @@ header > img {
   .data__body{
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 1.6rem;
     width: 50%;
     background-color: var(--white);
     padding: 4.5rem 0 0 4.5rem;
