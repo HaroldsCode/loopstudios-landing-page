@@ -13,11 +13,10 @@
     "static/media/desktop.3de81110.jpg": "/static/media/desktop.3de81110.jpg",
     "static/media/mobile.9b5aacea.jpg": "/static/media/mobile.9b5aacea.jpg"
   },
-  "homepage": "https://haroldscode.github.io/loopstudios-landing-page/",
   "entrypoints": [
-    "static/js/runtime-main.06b15935.js",
-    "static/js/2.ba383ece.chunk.js",
-    "static/css/main.2f6f836b.chunk.css",
-    "static/js/main.64a1b056.chunk.js"
+    "loopstudios-landing-page/static/js/runtime-main.06b15935.js",
+    "loopstudios-landing-page/static/js/2.ba383ece.chunk.js",
+    "loopstudios-landing-page/static/css/main.2f6f836b.chunk.css",
+    "loopstudios-landing-page/static/js/main.64a1b056.chunk.js"
   ]
 }
