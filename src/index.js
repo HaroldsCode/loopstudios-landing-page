@@ -5,5 +5,4 @@ import './index.css';
 import './style.css';
 import { AppRouter } from './AppRouter';
 
-ReactDOM.render(<AppRouter />, document.getElementById('root')
-);
+ReactDOM.render(<AppRouter />, document.getElementById('root'));

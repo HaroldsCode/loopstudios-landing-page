@@ -53,7 +53,9 @@ export const Social = () => {
     {alt:'Instagram', src:'./images/icon-instagram.svg'},
   ];
 
-  return <Picture>
+  return (
+    <Picture>
       {socials.map(({alt, src}) => (<a href="/#" key={alt}><img src={src} alt={alt}/></a>))}
     </Picture>
+  )
 }

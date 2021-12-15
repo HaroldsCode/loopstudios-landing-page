@@ -5,7 +5,8 @@ import { Social } from './Social';
 import { Attribution } from './Attribution';
 
 export const Footer = () => {
-  return <footer>
+  return (
+    <footer>
       <div className="footer">
         <div className="footer__group">
           <img className="footer__brand" src="./images/logo.svg" alt="loopstudios" title="loopstudios"/>
@@ -18,4 +19,5 @@ export const Footer = () => {
       </div>
       <Attribution/>
     </footer>
+  )
 }

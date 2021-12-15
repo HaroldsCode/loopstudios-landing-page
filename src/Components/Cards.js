@@ -24,7 +24,8 @@ export const Cards = () => {
     setCurrentWidth(current => current = window.screen.width)
   });
 
-  return <ul className="cards">
+  return (
+    <ul className="cards">
       {items.map((item, i) => (
         <li key={i} className="card">
           <img className="card__image" src={ mobile ? item.pathMobile : item.pathDesktop} alt={item.name} />
@@ -34,5 +35,5 @@ export const Cards = () => {
         </li>
       ))}
     </ul>
-  
+  )
 }

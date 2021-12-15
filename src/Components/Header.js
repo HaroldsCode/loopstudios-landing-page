@@ -30,7 +30,8 @@ export const Header = ({showMenu}) => {
     setCurrentWidth(current => current = window.screen.width)
   });
 
-  return <header>
+  return (
+    <header>
       <div></div>
       <img src={mobile ? mobileImg : desktopImg} alt="background" />
       <section>
@@ -45,4 +46,5 @@ export const Header = ({showMenu}) => {
         </div>
       </section>
     </header>
+  )
 }
