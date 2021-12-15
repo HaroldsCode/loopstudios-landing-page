@@ -56,11 +56,9 @@ export const MenuItem = ({variant}) => {
     {name: 'Support', path:'#'},
   ];
 
-  return (
-    <Menu variant={variant}>
+  return <Menu variant={variant}>
       {items.map(({name, path}) => <li key={name}><Item path={path} size={variant === 'aside' ? 'true' : 'false'}>{name}</Item></li>)}
     </Menu>
-  )
 }
 
 

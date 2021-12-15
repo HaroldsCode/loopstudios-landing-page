@@ -5,12 +5,9 @@ import { Home } from './Pages/Home';
 
 export const AppRouter = () => {
 
- return (
-   <Router>
-     <Routes>
-       <Route path="/" element={<Home/>}/>
-     </Routes>
-    </Router>
- )
-  
+ return <Router>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+          </Routes>
+        </Router>
 };

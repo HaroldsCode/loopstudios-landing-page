@@ -22,8 +22,7 @@ const Div = styled.div`
 `;
 
 export const Attribution = () => {
-  return (
-    <Div>
+  return  <Div>
       <div>
         <span>Challenge by</span>&nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
       </div>
@@ -31,5 +30,4 @@ export const Attribution = () => {
         <span>Coded by</span>&nbsp;<a href="https://haroldmoreno.com/" target="_blank" rel="noreferrer">Harold Moreno</a>.
       </div>
     </Div>
-  );
 }

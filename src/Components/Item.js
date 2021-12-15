@@ -35,7 +35,5 @@ const A = styled.a`
 `;
 
 export const Item = ({path, children, size = 'false'}) => {
-  return (
-    <A href={path} size={size}>{children}</A>
-  )
+  return <A href={path} size={size}>{children}</A>
 }

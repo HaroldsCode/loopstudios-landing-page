@@ -37,13 +37,11 @@ const Close = styled(IoClose)`
 
 export const ResponsiveMenu = ({toggle}) => {
 
-  return (
-    <Wrapper>
+  return <Wrapper>
       <div id="nav">
         <img src="./images/logo.svg" alt="logo loopstudios"/>
         <Close onClick={toggle}/>
       </div>
       <MenuItem variant="aside"/>
     </Wrapper>
-  )
 }
