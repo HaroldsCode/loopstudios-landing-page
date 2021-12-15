@@ -9,9 +9,7 @@ export const Home = () => {
 
   const [responsive, setResponsive] = useState(false);
 
-  return responsive 
-    ? <ResponsiveMenu toggle={(e) => setResponsive(toggle => toggle = false)}/>
-    : <>
+  return <>
         <Header showMenu={(e) => setResponsive(toggle => toggle = true)} />
         <main>
           <article className="data">
@@ -40,5 +38,4 @@ export const Home = () => {
         </main>
         <Footer />
       </>
-  ;
 };
